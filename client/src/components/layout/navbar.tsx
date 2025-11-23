@@ -19,7 +19,7 @@ export function Navbar() {
             <img 
               src="https://cdn.prod.website-files.com/63fa51b7662aa0ffcb153eaa/63fa51b7662aa017f4153ec5_The%20Burri%20Group.svg" 
               alt="The Burri Group" 
-              className="h-16 md:h-20 w-auto invert brightness-0 filter" 
+              className="w-[186px] h-auto invert brightness-0 filter" 
               style={{ filter: "brightness(0) invert(1)" }} 
             />
           </a>

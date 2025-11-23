@@ -5,6 +5,10 @@ export function About() {
   return (
     <section className="py-24 bg-muted/30">
       <div className="container mx-auto px-6">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-medium text-primary mb-6 tracking-wide">About Us</h2>
+        </div>
+
         <div className="grid md:grid-cols-2 gap-12 md:gap-20 items-center">
           {/* Image Column */}
           <motion.div
@@ -32,8 +36,7 @@ export function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <h4 className="text-sm font-bold text-muted-foreground tracking-widest uppercase mb-4">About Us</h4>
-            <h2 className="text-3xl md:text-4xl font-medium text-primary mb-8 tracking-wide">
+            <h2 className="text-2xl md:text-3xl font-medium text-primary mb-8 tracking-wide">
               Driven by Purpose, <br />
               <span className="italic font-serif">Guided by Experience</span>
             </h2>

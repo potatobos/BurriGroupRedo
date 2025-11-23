@@ -8,7 +8,7 @@ export function Navbar() {
         <img 
           src="/header-curve.svg" 
           alt="" 
-          className="w-[160%] min-w-[1200px] max-w-none h-auto object-cover object-top"
+          className="w-[160%] min-w-[1200px] max-w-none h-auto object-cover object-top mt-[-20px]"
         />
       </div>
       

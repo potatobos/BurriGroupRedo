@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export function Hero() {
   return (
-    <section className="relative pt-32 pb-24 md:pt-48 md:pb-32 flex items-center justify-center bg-background">
+    <section className="relative pt-[280px] pb-24 md:pt-[350px] md:pb-32 flex items-center justify-center bg-background">
       <div className="container relative z-10 px-6 text-center max-w-3xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

@@ -2,11 +2,17 @@ import { Link } from "wouter";
 
 export function Navbar() {
   return (
-    <div className="relative w-full z-50">
-      {/* Curved Header Background */}
-      <div className="absolute top-0 left-0 right-0 h-[200px] bg-primary rounded-b-[50%_20%] md:rounded-b-[50%_30%] shadow-lg z-0 w-[120%] -ml-[10%] overflow-hidden" />
+    <div className="absolute top-0 left-0 w-full z-50">
+      {/* SVG Background - Absolutely positioned */}
+      <div className="absolute top-0 left-0 w-full -z-10 overflow-hidden flex justify-center">
+        <img 
+          src="/header-curve.svg" 
+          alt="" 
+          className="w-full min-w-[1200px] max-w-none h-auto object-cover object-top lg:w-full lg:min-w-0"
+        />
+      </div>
       
-      <nav className="relative z-10 container mx-auto px-6 pt-8 flex flex-col items-center">
+      <nav className="container mx-auto px-6 pt-8 flex flex-col items-center relative z-10">
         {/* Logo */}
         <Link href="/">
           <a className="mb-6 block hover:opacity-90 transition-opacity">
@@ -14,7 +20,7 @@ export function Navbar() {
               src="https://cdn.prod.website-files.com/63fa51b7662aa0ffcb153eaa/63fa51b7662aa017f4153ec5_The%20Burri%20Group.svg" 
               alt="The Burri Group" 
               className="h-16 md:h-20 w-auto invert brightness-0 filter" 
-              style={{ filter: "brightness(0) invert(1)" }} // Force white logo
+              style={{ filter: "brightness(0) invert(1)" }} 
             />
           </a>
         </Link>

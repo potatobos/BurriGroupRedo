@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import founderImage from "@assets/generated_images/professional_female_founder_portrait.png";
+import founderImage from "@assets/generated_images/professional_portrait_of_a_female_founder_in_a_modern_office_setting.png";
 
 export function About() {
   return (

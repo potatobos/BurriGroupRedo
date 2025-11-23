@@ -39,9 +39,7 @@ export function About() {
             </h2>
             
             <div className="space-y-6 text-muted-foreground leading-relaxed font-light text-lg">
-              <p>
-                Welcome to The Burri Group. My name is Sarah Burri, and I founded this firm with a singular mission: to help leaders and organizations discover their true intention and operate with clarity.
-              </p>
+              <p>Welcome to The Burri Group. My name is Mary Burrus, and I founded this firm with a singular mission: to help leaders and organizations discover their true intention and operate with clarity.</p>
               <p>
                 With over two decades of experience in corporate leadership and organizational development, I've witnessed the transformative power of aligned priorities. When what matters to you becomes obvious to those around you, friction decreases and momentum builds.
               </p>

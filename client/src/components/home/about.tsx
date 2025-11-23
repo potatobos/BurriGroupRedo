@@ -49,7 +49,7 @@ export function About() {
             </div>
 
             <div className="mt-10 pt-8 border-t border-border">
-              <p className="font-serif text-2xl text-primary italic">Sarah Burri</p>
+              <p className="font-serif text-2xl text-primary italic">Mary Burri</p>
               <p className="text-sm text-muted-foreground mt-1 uppercase tracking-wider">Founder & Principal Coach</p>
             </div>
           </motion.div>

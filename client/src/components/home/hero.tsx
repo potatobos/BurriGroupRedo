@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import { ContactDrawer } from "@/components/shared/contact-drawer";
 
 export function Hero() {
   return (
@@ -30,12 +31,14 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
         >
-          <Button 
-            size="lg" 
-            className="h-12 px-8 text-base rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 font-medium shadow-md"
-          >
-            Start Your Journey
-          </Button>
+          <ContactDrawer>
+            <Button 
+              size="lg" 
+              className="h-12 px-8 text-base rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 font-medium shadow-md"
+            >
+              Get in Touch
+            </Button>
+          </ContactDrawer>
         </motion.div>
       </div>
     </section>

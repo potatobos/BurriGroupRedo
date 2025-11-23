@@ -13,7 +13,7 @@ export function Navbar() {
         />
       </div>
       
-      <nav className="container mx-auto px-6 pt-8 flex flex-col items-center relative z-10">
+      <nav className="container mx-auto px-6 flex flex-col items-center justify-center relative z-10 h-[180px] md:h-[220px]">
         {/* Logo */}
         <Link href="/">
           <a className="mb-6 block hover:opacity-90 transition-opacity">

@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/layout/navbar";
 import { Hero } from "@/components/home/hero";
 import { Services } from "@/components/home/services";
+import { About } from "@/components/home/about";
 import { Contact } from "@/components/home/contact";
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
         </div>
 
         <Services />
+        <About />
         <Contact />
       </main>
       {/* No footer in the screenshot, but usually there is one. I'll leave the bottom of Contact as the end for now as per screenshot view */}

@@ -1,4 +1,5 @@
 import { Link } from "wouter";
+import { ContactDrawer } from "@/components/shared/contact-drawer";
 
 export function Navbar() {
   return (
@@ -27,17 +28,13 @@ export function Navbar() {
         
         {/* Navigation Links */}
         <div className="flex items-center gap-4 text-white/90 text-xs md:text-sm font-medium tracking-widest uppercase">
-          <Link href="/services">
-            <a className="hover:text-white transition-colors">Services</a>
-          </Link>
+          <a href="#services" className="hover:text-white transition-colors cursor-pointer">Services</a>
           <span className="opacity-50">|</span>
-          <Link href="/about">
-            <a className="hover:text-white transition-colors">About Us</a>
-          </Link>
+          <a href="#about" className="hover:text-white transition-colors cursor-pointer">About Us</a>
           <span className="opacity-50">|</span>
-          <Link href="/contact">
-            <a className="hover:text-white transition-colors">Contact</a>
-          </Link>
+          <ContactDrawer>
+            <button className="hover:text-white transition-colors cursor-pointer uppercase tracking-widest">Contact</button>
+          </ContactDrawer>
         </div>
       </nav>
     </div>

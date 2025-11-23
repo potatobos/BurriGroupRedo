@@ -3,7 +3,7 @@ import founderImage from "@assets/generated_images/professional_portrait_of_a_fe
 
 export function About() {
   return (
-    <section className="py-24 bg-muted/30">
+    <section id="about" className="py-24 bg-muted/30">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-medium text-primary mb-6 tracking-wide">About Us</h2>

@@ -19,7 +19,7 @@ const services = [
 
 export function Services() {
   return (
-    <section className="py-24 bg-background relative overflow-hidden">
+    <section id="services" className="py-24 bg-background relative overflow-hidden">
       {/* Blurred Blue Circle from screenshot */}
       <div className="absolute left-0 top-20 w-64 h-64 bg-blue-200/40 rounded-full blur-3xl -translate-x-1/2 pointer-events-none" />
 

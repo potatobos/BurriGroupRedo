@@ -4,11 +4,11 @@ export function Navbar() {
   return (
     <div className="absolute top-0 left-0 w-full z-50">
       {/* SVG Background - Absolutely positioned */}
-      <div className="absolute top-0 left-0 w-full -z-10 overflow-hidden flex justify-center">
+      <div className="absolute top-0 left-0 w-full -z-10 overflow-hidden h-[380px]">
         <img 
           src="/header-curve.svg" 
           alt="" 
-          className="w-[160%] min-w-[1200px] max-w-none h-[300px] md:h-[380px] object-fill mt-[-160px]"
+          className="absolute left-1/2 -translate-x-1/2 w-[160vw] min-w-[1200px] max-w-none h-[300px] md:h-[380px] object-fill mt-[-160px]"
         />
       </div>
       

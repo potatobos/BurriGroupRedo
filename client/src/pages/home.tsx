@@ -1,27 +1,29 @@
 import { Navbar } from "@/components/layout/navbar";
-import { Footer } from "@/components/layout/footer";
 import { Hero } from "@/components/home/hero";
 import { Services } from "@/components/home/services";
 import { Contact } from "@/components/home/contact";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background text-foreground font-sans selection:bg-accent/30">
+    <div className="min-h-screen bg-background text-foreground font-sans selection:bg-primary/20">
       <Navbar />
       <main>
         <Hero />
         
-        {/* Accreditations Strip */}
-        <div className="w-full bg-muted/30 py-12 border-y border-border/40 overflow-hidden">
+        {/* Accreditations Strip - Exactly as in screenshot */}
+        <div className="w-full bg-secondary py-16 border-none">
           <div className="container mx-auto px-6">
-            <div className="flex items-center justify-center gap-12 md:gap-24 opacity-50 grayscale hover:grayscale-0 transition-all duration-500 flex-wrap">
-               {/* Using placeholders for the accreditations as I don't have all their URLs handy, but I'll use the one I saw repeated */}
+            <div className="text-center mb-10">
+              <h3 className="text-sm font-bold text-muted-foreground tracking-widest uppercase">Accreditations</h3>
+            </div>
+            <div className="flex items-center justify-center gap-8 md:gap-16 flex-wrap">
+               {/* Using the exact image URL from the snippet */}
                {[1, 2, 3, 4].map((i) => (
                  <img 
                    key={i}
                    src="https://cdn.prod.website-files.com/63fa51b7662aa0ffcb153eaa/63fa51b7662aa0f452153ec8_image%207.png" 
-                   alt="Accreditation" 
-                   className="h-12 md:h-16 w-auto object-contain"
+                   alt="NASCUS Accreditation" 
+                   className="h-20 md:h-24 w-auto object-contain"
                  />
                ))}
             </div>
@@ -31,7 +33,7 @@ export default function Home() {
         <Services />
         <Contact />
       </main>
-      <Footer />
+      {/* No footer in the screenshot, but usually there is one. I'll leave the bottom of Contact as the end for now as per screenshot view */}
     </div>
   );
 }
